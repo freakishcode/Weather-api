@@ -1,0 +1,36 @@
+/* General/universal styling */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --page-bg: #282c34;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Global transition */
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* MUI Components */
+.MuiContainer-root,
+.MuiPaper-root,
+.MuiCard-root,
+.MuiButton-root,
+.MuiToggleButton-root,
+.MuiTypography-root {
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+}
