@@ -10,7 +10,7 @@ import {
 
 // Importing utility function to get unit symbols
 import { symbolFor } from "../Utility/units";
-import motion from "framer-motion";
+import { motion } from "framer-motion";
 
 // WeatherCard component to display current weather information
 // It accepts data, units, loading state, error state, and error message as props
